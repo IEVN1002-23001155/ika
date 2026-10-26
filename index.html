@@ -1,0 +1,818 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#f8f6f1">
+
+  <meta
+    name="description"
+    content="Explora el menú digital de IKA Japanese Bistro. Descubre nuestros platillos, especialidades y sabores japoneses.">
+
+  <title>IKA | Japanese Bistro</title>
+
+  <!-- ====================================
+       TIPOGRAFÍAS
+  ==================================== -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Jost:wght@300;400;500;600&family=Noto+Serif+JP:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- ====================================
+       BOOTSTRAP 5
+  ==================================== -->
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+  <!-- ====================================
+       ESTILOS PERSONALIZADOS IKA
+  ==================================== -->
+
+  <link
+    rel="stylesheet"
+    href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- ====================================
+       BARRA SUPERIOR
+  ==================================== -->
+
+  <div class="miniTop">
+    イカ · Japanese Bistro · Menú digital
+  </div>
+
+
+  <!-- ====================================
+       NAVEGACIÓN PRINCIPAL
+  ==================================== -->
+
+  <header class="mainNav">
+
+    <div class="container navInside">
+
+      <!-- LOGOTIPO KANJI -->
+
+      <a
+        href="#inicio"
+        aria-label="Volver al inicio de IKA">
+
+        <img
+          id="logo"
+          class="logo"
+          src="assets/img/ika_kanji.png"
+          alt="IKA Japanese Bistro">
+
+      </a>
+
+      <!-- BOTONES SUPERIORES -->
+
+      <div class="navRight">
+
+        <!-- FAVORITOS -->
+
+        <button
+          type="button"
+          class="navButton"
+          id="savedTop">
+
+          <span class="icon">♡</span>
+
+          <span class="labelLong">
+            Guardados
+          </span>
+
+          <span id="savedCount">0</span>
+
+        </button>
+
+        <!-- MI SELECCIÓN -->
+
+        <button
+          type="button"
+          class="navButton"
+          id="selectedTop">
+
+          Mi selección
+
+          <span
+            class="bubble"
+            id="topCount">
+
+            0
+
+          </span>
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- ====================================
+       CONTENIDO PRINCIPAL
+  ==================================== -->
+
+  <main>
+
+
+    <!-- ====================================
+         PORTADA PRINCIPAL
+    ==================================== -->
+
+    <section
+      class="hero"
+      id="inicio">
+
+      <!-- TEXTOS DE PORTADA -->
+
+      <div class="heroCopy">
+
+        <div class="heroInner">
+
+          <!-- LOGOTIPO ORIGINAL COMPLETO -->
+
+          <img
+            class="ikaHeroBrand"
+            src="assets/img/ika_completo.png"
+            alt="IKA Japanese Bistro">
+
+          <span class="sup">
+            イカ / IKA JAPANESE BISTRO
+          </span>
+
+          <h1>
+            Japón en cada detalle.
+          </h1>
+
+          <p class="lead">
+
+            La belleza discreta de la cocina japonesa,
+            sus técnicas y sus ingredientes.
+
+            Descubre nuestra carta a tu ritmo.
+
+          </p>
+
+          <!-- BOTÓN EXPLORAR -->
+
+          <button
+            type="button"
+            class="outlineBtn"
+            id="exploreTop">
+
+            Explorar el menú
+
+            <span>↗</span>
+
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- FOTOGRAFÍA DE PORTADA -->
+
+      <div class="heroPhoto">
+
+        <img
+          id="heroPic"
+          src="assets/img/portada_rollos.jpg"
+          alt="Gastronomía japonesa de IKA"
+          fetchpriority="high">
+
+        <span class="cornerLine">
+          日本の味
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================
+         INTRODUCCIÓN
+    ==================================== -->
+
+    <section class="container intro">
+
+      <div>
+
+        <span class="sup">
+          UNA HISTORIA DE JAPÓN
+        </span>
+
+        <h2 class="introTitle">
+          El arte de lo esencial.
+        </h2>
+
+      </div>
+
+      <p>
+
+        IKA toma su nombre del
+        <strong>Hotaru Ika</strong>,
+        el calamar luciérnaga.
+
+        Su luz representa el descubrimiento
+        y la belleza discreta.
+
+      </p>
+
+    </section>
+
+
+    <!-- ====================================
+         CATEGORÍAS DESTACADAS
+    ==================================== -->
+
+    <section class="container categoryPhotos">
+
+      <div class="headingRow">
+
+        <div>
+
+          <span class="sup">
+            UNA EXPERIENCIA A TU MANERA
+          </span>
+
+          <h2>
+            ¿Por dónde empezamos?
+          </h2>
+
+        </div>
+
+        <span class="subline">
+          Descubre · Elige · Disfruta
+        </span>
+
+      </div>
+
+
+      <!-- TARJETAS FOTOGRÁFICAS -->
+
+      <div class="photoTiles">
+
+
+        <!-- ROLLOS -->
+
+        <button
+          type="button"
+          class="tile"
+          data-category="rollos">
+
+          <img
+            id="tileRolls"
+            src="assets/img/categoria_rollos.jpg"
+            alt="Rollos de IKA"
+            loading="lazy">
+
+          <span class="tileText">
+
+            <span>
+
+              <small>
+                巻物 · Selección
+              </small>
+
+              <b>Rollos</b>
+
+            </span>
+
+            <i>↗</i>
+
+          </span>
+
+        </button>
+
+
+        <!-- ENTRADAS -->
+
+        <button
+          type="button"
+          class="tile"
+          data-category="entradas">
+
+          <img
+            id="tileEntradas"
+            src="assets/img/categoria_entradas.jpg"
+            alt="Entradas de IKA"
+            loading="lazy">
+
+          <span class="tileText">
+
+            <span>
+
+              <small>
+                前菜 · Para empezar
+              </small>
+
+              <b>Entradas</b>
+
+            </span>
+
+            <i>↗</i>
+
+          </span>
+
+        </button>
+
+
+        <!-- POSTRES -->
+
+        <button
+          type="button"
+          class="tile"
+          data-category="postre">
+
+          <img
+            id="tileDessert"
+            src="assets/img/categoria_postres.jpg"
+            alt="Postres de IKA"
+            loading="lazy">
+
+          <span class="tileText">
+
+            <span>
+
+              <small>
+                デザート · Final dulce
+              </small>
+
+              <b>Postres</b>
+
+            </span>
+
+            <i>↗</i>
+
+          </span>
+
+        </button>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================
+         MENÚ DIGITAL
+    ==================================== -->
+
+    <section
+      class="menuWrap"
+      id="carta">
+
+      <!-- ENCABEZADO -->
+
+      <div class="container menuHeader">
+
+        <span class="sup">
+          IKA / CARTA
+        </span>
+
+        <h2 class="menuTitle">
+          Nuestro menú.
+        </h2>
+
+        <p class="menuDescription">
+
+          Explora las especialidades de IKA,
+          guarda tus favoritos y prepara tu selección.
+
+          Precios en pesos mexicanos.
+
+        </p>
+
+
+        <!-- BUSCADOR -->
+
+        <div class="searchRow">
+
+          <label class="search">
+
+            <span aria-hidden="true">
+              ⌕
+            </span>
+
+            <input
+              type="search"
+              id="search"
+              placeholder="Buscar un platillo..."
+              autocomplete="off"
+              aria-label="Buscar platillos">
+
+          </label>
+
+
+          <!-- FAVORITOS -->
+
+          <button
+            type="button"
+            class="favsOnly"
+            id="favoritesToggle">
+
+            ♡ Favoritos
+
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- ====================================
+           NAVEGACIÓN DE CATEGORÍAS
+      ==================================== -->
+
+      <nav
+        class="filterWrap"
+        aria-label="Categorías del menú">
+
+        <div
+          class="container filterInner"
+          id="filters">
+
+          <!-- Las categorías se generan con JS -->
+
+        </div>
+
+      </nav>
+
+
+      <!-- ====================================
+           CONTENEDOR DE PRODUCTOS
+      ==================================== -->
+
+      <div class="container results">
+
+        <!-- RESUMEN DE RESULTADOS -->
+
+        <div class="resultsSummary">
+
+          <span id="stateLine">
+            Explora nuestro menú
+          </span>
+
+          <span id="resultCount">
+            60 opciones
+          </span>
+
+        </div>
+
+
+        <!-- PRODUCTOS Y GALERÍAS -->
+
+        <div
+          id="menuResults"
+          aria-label="Platillos disponibles">
+
+          <!--
+            script.js genera las tarjetas.
+
+            galeria.js inserta las galerías
+            expandibles dentro de las
+            cuadrículas de productos.
+
+            Las fotografías y descripciones
+            se obtienen de menu.json.
+          -->
+
+        </div>
+
+
+        <!-- MENSAJE SIN RESULTADOS -->
+
+        <div
+          class="noResults hidden"
+          id="empty">
+
+          <span class="largeJP">
+            イカ
+          </span>
+
+          <p>
+            No encontramos ese platillo.
+          </p>
+
+          <span>
+            Prueba con otra categoría.
+          </span>
+
+        </div>
+
+
+        <!-- ====================================
+             INFORMACIÓN IMPORTANTE
+        ==================================== -->
+
+        <aside class="notice">
+
+          <b>
+            Información importante.
+          </b>
+
+          <p>
+
+            La venta de alcohol se realiza
+            únicamente con alimentos,
+            de 12:00 a 17:00 hrs.
+
+          </p>
+
+          <p>
+
+            La Comunidad Hotaru recibe
+            10% de descuento presentando
+            credencial de estudiante
+            o trabajador.
+
+          </p>
+
+        </aside>
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================
+         SECCIÓN DEL SELLO JAPONÉS
+    ==================================== -->
+
+    <section class="story">
+
+      <div class="container storyInner">
+
+        <div>
+
+          <span class="sup">
+            HOTARU IKA · ホタルイカ
+          </span>
+
+          <h2>
+            Una luz que surge del mar.
+          </h2>
+
+          <p>
+
+            La cocina de IKA honra la tradición
+            japonesa a través de sus técnicas
+            y sus ingredientes.
+
+          </p>
+
+        </div>
+
+
+        <!-- SELLO ROJO ORIGINAL -->
+
+        <div class="storySeal">
+
+          <img
+            id="brandSeal"
+            src="assets/img/ika_sello.png"
+            alt="Sello japonés original de IKA"
+            loading="lazy">
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- ====================================
+       FOOTER
+  ==================================== -->
+
+  <footer class="foot">
+
+    <div class="container footInner">
+
+      <!-- INFORMACIÓN IKA -->
+
+      <div>
+
+        <div class="footBrand">
+
+          IKA
+
+          <small>
+            JAPANESE BISTRO
+          </small>
+
+        </div>
+
+        <p>
+
+          Un pequeño rincón de Japón
+          en Coyoacán, Ciudad de México.
+
+        </p>
+
+        <p>
+
+          Martes a viernes · 13:00–20:30
+
+          <br>
+
+          Sábados · 11:00–19:00
+
+          <br>
+
+          Domingos · 13:00–18:00
+
+        </p>
+
+      </div>
+
+
+      <!-- CONTACTO -->
+
+      <div>
+
+        <span class="sup">
+          VEN A CONOCERNOS
+        </span>
+
+        <p>
+          Reservaciones: 55 4580 2028
+        </p>
+
+        <div class="footLinks">
+
+          <a
+            href="https://www.instagram.com/ika_japanese_bistro/"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            Instagram ↗
+
+          </a>
+
+          <a href="tel:+525545802028">
+
+            Llamar para reservar ↗
+
+          </a>
+
+        </div>
+
+        <p>
+
+          La selección digital no procesa
+          pedidos ni pagos.
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ====================================
+       BOTÓN FLOTANTE MI SELECCIÓN
+  ==================================== -->
+
+  <button
+    type="button"
+    class="floating hidden"
+    id="floating"
+    aria-label="Abrir mi selección">
+
+    <span>
+
+      <small>
+        MI SELECCIÓN
+      </small>
+
+      <strong id="floatText">
+        Ver platillos elegidos
+      </strong>
+
+    </span>
+
+    <span class="right">
+
+      <span id="floatCount">
+        0
+      </span>
+
+      platillos →
+
+    </span>
+
+  </button>
+
+
+  <!-- ====================================
+       MODAL PARA MI SELECCIÓN
+  ==================================== -->
+
+  <div
+    class="overlay hidden"
+    id="overlay">
+
+    <section
+      class="drawer"
+      id="drawer"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle">
+
+      <!-- CERRAR -->
+
+      <button
+        type="button"
+        class="close"
+        id="closeModal"
+        aria-label="Cerrar ventana">
+
+        ×
+
+      </button>
+
+
+      <!-- CONTENIDO DINÁMICO -->
+
+      <div id="drawerInner">
+
+        <!--
+          Aquí aparecerá el contenido
+          de Mi selección.
+        -->
+
+      </div>
+
+    </section>
+
+  </div>
+
+
+  <!-- ====================================
+       NOTIFICACIONES
+  ==================================== -->
+
+  <div
+    class="toast hidden"
+    id="toast"
+    role="status"
+    aria-live="polite">
+  </div>
+
+
+  <!-- ====================================
+       JAVASCRIPT
+  ==================================== -->
+
+  <!-- BOOTSTRAP 5 -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+
+  <!-- FUNCIONES PRINCIPALES DEL MENÚ -->
+
+  <script src="js/script.js"></script>
+
+
+  <!-- GALERÍAS INTERACTIVAS EXPANDIBLES -->
+
+  <script src="js/galeria.js"></script>
+
+
+</body>
+
+</html>

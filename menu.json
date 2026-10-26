@@ -1,0 +1,682 @@
+
+{
+  "categories": [
+    {
+      "id": "entradas",
+      "name": "Entradas",
+      "japanese": "前菜",
+      "subtitle": "Para comenzar"
+    },
+    {
+      "id": "osashimi",
+      "name": "Osashimi",
+      "japanese": "お刺身",
+      "subtitle": "Selección de sashimi"
+    },
+    {
+      "id": "sando",
+      "name": "Sando",
+      "japanese": "サンド",
+      "subtitle": "Sandos japoneses"
+    },
+    {
+      "id": "nigiri",
+      "name": "Nigiri",
+      "japanese": "握り",
+      "subtitle": "Selección de nigiri"
+    },
+    {
+      "id": "gohanmono",
+      "name": "Gohanmono",
+      "japanese": "ご飯物",
+      "subtitle": "Arroz y curry"
+    },
+    {
+      "id": "rollos",
+      "name": "Rollos",
+      "japanese": "巻物",
+      "subtitle": "Rollos de la casa"
+    },
+    {
+      "id": "onigiri",
+      "name": "Onigiri",
+      "japanese": "おにぎり",
+      "subtitle": "Selección de onigiri"
+    },
+    {
+      "id": "postre",
+      "name": "Postre",
+      "japanese": "デザート",
+      "subtitle": "Un final dulce"
+    },
+    {
+      "id": "bebidas",
+      "name": "Bebidas",
+      "japanese": "お飲み物",
+      "subtitle": "Para acompañar"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "edamame",
+      "cat": "entradas",
+      "name": "Edamame",
+      "price": 80,
+      "image": "assets/img/platillos/edamame_01.jpg",
+      "gallery": [
+        "assets/img/platillos/edamame_01.jpg",
+        "assets/img/platillos/edamame_02.jpg",
+        "assets/img/platillos/edamame_03.jpg"
+
+      ],
+      "description": ""
+    },
+    {
+      "id": "alitas-miso",
+      "cat": "entradas",
+      "name": "Alitas Miso",
+      "price": 130,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "sunomono-thai",
+      "cat": "entradas",
+      "name": "Sunomono Thai",
+      "price": 150,
+      "image": "assets/img/platillos/sunomono_thai_01.jpg",
+      "gallery": [
+        "assets/img/platillos/sunomono_thai_01.jpg",
+        "assets/img/platillos/sunomono_thai_02.jpg",
+        "assets/img/platillos/sunomono_thai_03.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "pollo-karaage-entrada",
+      "cat": "entradas",
+      "name": "Pollo Karaage",
+      "price": 130,
+      "image": "assets/img/platillos/pollo_karaage_01.jpg",
+      "gallery": [
+        "assets/img/platillos/pollo_karaage_02.jpg",
+        "assets/img/platillos/pollo_karaage_01.jpg",
+        "assets/img/platillos/pollo_karaage_03.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "gyoza-wagyu",
+      "cat": "entradas",
+      "name": "Gyoza de Wagyu",
+      "price": 225,
+      "image": "assets/img/platillos/gyoza-wagyu-01.jpg",
+      "gallery": [
+        "assets/img/platillos/gyoza-wagyu-01.jpg",
+        "assets/img/platillos/gyoza-wagyu-02.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "sopa-miso",
+      "cat": "entradas",
+      "name": "Sopa Miso",
+      "price": 48,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "gohan",
+      "cat": "entradas",
+      "name": "Gohan",
+      "price": 35,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+
+    {
+      "id": "sashimi-akami",
+      "cat": "osashimi",
+      "name": "Akami",
+      "price": 250,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "sashimi-salmon",
+      "cat": "osashimi",
+      "name": "Salmón",
+      "price": 250,
+      "image": "assets/img/platillos/sashimi-salmon-01.jpg",
+      "gallery": [
+        "assets/img/platillos/sashimi-salmon-01.jpg",
+        "assets/img/platillos/sashimi-salmon-02.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "sashimi-mixto",
+      "cat": "osashimi",
+      "name": "Mixto",
+      "price": 270,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "sashimi-chutoro",
+      "cat": "osashimi",
+      "name": "Chutoro",
+      "price": 320,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "sashimi-toro",
+      "cat": "osashimi",
+      "name": "Toro",
+      "price": 380,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "sashimi-wagyu",
+      "cat": "osashimi",
+      "name": "Wagyu",
+      "price": 380,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+
+    {
+      "id": "sando-tamago",
+      "cat": "sando",
+      "name": "Tamago",
+      "price": 175,
+      "image": "assets/img/platillos/tamago-sando-01.jpg",
+      "gallery": [
+        "assets/img/platillos/tamago-sando-01.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "sando-pollo-karaage",
+      "cat": "sando",
+      "name": "Pollo Karaage",
+      "price": 200,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "katsu-sando",
+      "cat": "sando",
+      "name": "Katsu Sando",
+      "price": 235,
+      "image": "assets/img/platillos/katsu-sando-01.jpg",
+      "gallery": [
+        "assets/img/platillos/katsu-sando-01.jpg"
+      ],
+      "description": ""
+    },
+
+    {
+      "id": "nigiri-akami-zuke",
+      "cat": "nigiri",
+      "name": "Akami-zuke",
+      "price": 85,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "nigiri-kampachi",
+      "cat": "nigiri",
+      "name": "Kampachi",
+      "price": 80,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "nigiri-ebi",
+      "cat": "nigiri",
+      "name": "Ebi",
+      "price": 75,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "nigiri-kani",
+      "cat": "nigiri",
+      "name": "Kani",
+      "price": 65,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "nigiri-salmon",
+      "cat": "nigiri",
+      "name": "Salmón",
+      "price": 80,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "nigiri-chutoro",
+      "cat": "nigiri",
+      "name": "Chū toro",
+      "price": 115,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "nigiri-otoro",
+      "cat": "nigiri",
+      "name": "Ōtoro",
+      "price": 135,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "nigiri-unagi",
+      "cat": "nigiri",
+      "name": "Unagi",
+      "price": 135,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "nigiri-wagyu",
+      "cat": "nigiri",
+      "name": "Wagyu",
+      "price": 135,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+
+    {
+      "id": "poke-atun",
+      "cat": "gohanmono",
+      "name": "Poke de Atún",
+      "price": 290,
+      "image": "assets/img/platillos/poke-atun-01.jpg",
+      "gallery": [
+        "assets/img/platillos/poke-atun-01.jpg",
+        "assets/img/platillos/poke-atun-02.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "poke-salmon",
+      "cat": "gohanmono",
+      "name": "Poke de Salmón",
+      "price": 290,
+      "image": "assets/img/platillos/poke-salmon-01.jpg",
+      "gallery": [
+        "assets/img/platillos/poke-salmon-01.jpg",
+        "assets/img/platillos/poke-salmon-02.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "poke-camaron",
+      "cat": "gohanmono",
+      "name": "Poke de Camarón",
+      "price": 325,
+      "image": "assets/img/platillos/poke-camaron-01.jpg",
+      "gallery": [
+        "assets/img/platillos/poke-camaron-01.jpg",
+        "assets/img/platillos/poke-camaron-02.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "poke-mixto",
+      "cat": "gohanmono",
+      "name": "Poke Mixto",
+      "price": 325,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "curry-japones",
+      "cat": "gohanmono",
+      "name": "Curry Japonés",
+      "price": 305,
+      "image": "assets/img/platillos/curry-japones-01.jpg",
+      "gallery": [
+        "assets/img/platillos/curry-japones-01.jpg",
+        "assets/img/platillos/curry-japones-02.jpg"
+      ],
+      "description": ""
+    },
+
+    {
+      "id": "tekka-aguacate",
+      "cat": "rollos",
+      "name": "Tekka Aguacate",
+      "price": 125,
+      "image": "assets/img/platillos/tekka-aguacate-01.jpg",
+      "gallery": [
+        "assets/img/platillos/tekka-aguacate-01.jpg",
+        "assets/img/platillos/tekka-aguacate-02.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "salmon-aguacate",
+      "cat": "rollos",
+      "name": "Salmón Aguacate",
+      "price": 125,
+      "image": "assets/img/platillos/salmon-aguacate-01.jpg",
+      "gallery": [
+        "assets/img/platillos/salmon-aguacate-01.jpg",
+        "assets/img/platillos/salmon-aguacate-02.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "veggie-roll",
+      "cat": "rollos",
+      "name": "Veggie Roll",
+      "price": 135,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "ebi-fry-roll",
+      "cat": "rollos",
+      "name": "Ebi Fry Roll",
+      "price": 155,
+      "image": "assets/img/platillos/ebi-fry-roll-01.jpg",
+      "gallery": [
+        "assets/img/platillos/ebi-fry-roll-01.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "spicy-tuna",
+      "cat": "rollos",
+      "name": "Spicy Tuna",
+      "price": 165,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "salmon-aburi",
+      "cat": "rollos",
+      "name": "Salmón Aburi",
+      "price": 165,
+      "image": "assets/img/platillos/salmon-aburi-01.jpg",
+      "gallery": [
+        "assets/img/platillos/salmon-aburi-01.jpg",
+        "assets/img/platillos/salmon-aburi-02.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "unakyu",
+      "cat": "rollos",
+      "name": "Unakyu",
+      "price": 165,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+
+    {
+      "id": "onigiri-atun",
+      "cat": "onigiri",
+      "name": "Atún",
+      "price": 60,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "onigiri-salmon",
+      "cat": "onigiri",
+      "name": "Salmón",
+      "price": 60,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "onigiri-camaron",
+      "cat": "onigiri",
+      "name": "Camarón",
+      "price": 60,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+
+    {
+      "id": "helado-matcha",
+      "cat": "postre",
+      "name": "Helado de Matcha",
+      "price": 80,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "mochis",
+      "cat": "postre",
+      "name": "Mochis",
+      "price": 95,
+      "image": "assets/img/platillos/mochis-01.jpg",
+      "gallery": [
+        "assets/img/platillos/mochis-01.jpg"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ichigo-sando",
+      "cat": "postre",
+      "name": "Ichigo Sando",
+      "price": 145,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "rollo-matcha",
+      "cat": "postre",
+      "name": "Rollo de Matcha",
+      "price": 60,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "rollo-tiramisu",
+      "cat": "postre",
+      "name": "Rollo de Tiramisú",
+      "price": 60,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "tarta-platano",
+      "cat": "postre",
+      "name": "Tarta de Plátano",
+      "price": 65,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "eclair-matcha",
+      "cat": "postre",
+      "name": "Éclair de Matcha",
+      "price": 70,
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+
+    {
+      "id": "cafe-v60",
+      "cat": "bebidas",
+      "name": "Café Método V60",
+      "price": 58,
+      "extra": "12 oz",
+      "sub": "Calientes",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "infusiones-te",
+      "cat": "bebidas",
+      "name": "Infusiones de Té",
+      "price": 42,
+      "extra": "12 oz",
+      "sub": "Calientes",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "capuchino",
+      "cat": "bebidas",
+      "name": "Capuchino",
+      "price": 55,
+      "extra": "12 oz",
+      "sub": "Calientes",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "espresso",
+      "cat": "bebidas",
+      "name": "Espresso",
+      "price": 40,
+      "sub": "Calientes",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "te-verde",
+      "cat": "bebidas",
+      "name": "Té Verde",
+      "price": 65,
+      "extra": "500 ml",
+      "sub": "Frías",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "matcha-latte",
+      "cat": "bebidas",
+      "name": "Matcha Latte",
+      "price": 75,
+      "extra": "355 ml",
+      "sub": "Frías",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "calpis",
+      "cat": "bebidas",
+      "name": "Calpis",
+      "price": 50,
+      "extra": "355 ml",
+      "sub": "Frías",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "ramune",
+      "cat": "bebidas",
+      "name": "Ramune",
+      "price": 85,
+      "extra": "200 ml · Yuzu, Fresa, Lychee",
+      "sub": "Frías",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "refrescos",
+      "cat": "bebidas",
+      "name": "Refrescos",
+      "price": 50,
+      "extra": "355 ml · Topo Chico, Coca-Cola, Coca-Cola Zero, Sidral, Sprite",
+      "sub": "Frías",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "sake-casa",
+      "cat": "bebidas",
+      "name": "Sake de la Casa",
+      "price": 135,
+      "extra": "5 oz",
+      "sub": "Sake",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "sapporo",
+      "cat": "bebidas",
+      "name": "Cerveza Sapporo",
+      "price": 145,
+      "extra": "355 ml",
+      "sub": "Sake y otras bebidas alcohólicas",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "vino-blanco",
+      "cat": "bebidas",
+      "name": "Vino Blanco",
+      "price": 150,
+      "extra": "5 oz · Chardonnay",
+      "sub": "Sake y otras bebidas alcohólicas",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    },
+    {
+      "id": "vino-tinto",
+      "cat": "bebidas",
+      "name": "Vino Tinto",
+      "price": 180,
+      "extra": "5 oz · Pinot Noir",
+      "sub": "Sake y otras bebidas alcohólicas",
+      "image": "",
+      "gallery": [],
+      "description": ""
+    }
+  ]
+}
